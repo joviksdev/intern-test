@@ -1,25 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
 
+/* 
+  ! Counter
+  * Creat a increment button with a click event to increment the counter
+  * Create a decrement button to decrease the counter value
+  * Creat a paragraph to display the counter
+  
+  ! Navigation List
+  * Create a navigation list from with the array ['Home', 'About', 'Contact']
+  * Each list should have a class name of list-item
+*/
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div>
+			{/* 
+        Happy Coding
+      */}
+		</div>
+	);
 }
 
 export default App;
