@@ -16,14 +16,14 @@ test('Increment and Decrement button should exist with class name btn-primary', 
 	expect(decrementButtonElement).toBeInTheDocument();
 });
 
-test('Counter exist with attribute data-testid set to counter-value and text content of 0, and expect to be disabled', () => {
+test('Counter exist with attribute data-testid set to counter-value and text content of 0', () => {
 	render(<App />);
 	const counterElement = screen.getByTestId(/counter-value/i);
 
 	expect(counterElement).toHaveTextContent(0);
 });
 
-test('Decrement button should be disabled when  counter is 0, Increment button should increase the counter value and enable the decrement button', () => {
+test('Decrement button should be disabled when counter is 0, Increment button should increase the counter value and enable the decrement button', () => {
 	render(<App />);
 
 	const counterElement = screen.getByTestId('counter-value');
